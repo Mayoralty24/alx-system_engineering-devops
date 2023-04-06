@@ -41,6 +41,5 @@ listen	balancer
 
 	# backend config settings
 	balance roundrobin
-	server 61065-web-01 100.26.167.200:80 check
-	server 61065-web-02 54.236.27.195:80 check
-
+	server 152181-web-01 100.26.214.73 check
+	server 152181-web-02 35.174.211.153 check
